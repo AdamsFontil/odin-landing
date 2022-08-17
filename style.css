@@ -1,22 +1,27 @@
 .first-section {
     background-color: #1f2937;
+    padding: 0 70px;
 }
 .header {
     display: flex;
     align-items: center;
     column-gap: 200px;
 
+
+
 }
 
 .header-right {
     margin-left: auto;
     gap: 50px 50px;
+
 }
 
 body {
     margin: 0;
-    padding:0 70px ;
-    background-color: #1f2937;
+    padding: 0;
+
+
 
 }
 
@@ -30,6 +35,8 @@ button {
     height: max-content;
     align-items: center;
     gap: 190px;
+    padding-bottom: 30px;
+
 }
 
 img {
@@ -53,6 +60,24 @@ img {
 a {
     text-decoration: none;
     font-size: 18px;
-    color: #e5e7eb;
+    color: #e5e7eb;}
 
+h2 {
+    font-size: 36px;
+    color: #ea1809;
+    font-weight: bolder;
+}
+
+
+.second-section {
+    display: flex;
+    background-color: red;
+    padding: 0 70px;
+    justify-content: center;
+}
+
+.info {
+    display: flex;
+    align-self: center;
+    justify-content: center;
 }
