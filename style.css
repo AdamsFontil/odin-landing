@@ -1,19 +1,18 @@
 .first-section {
     background-color: #1f2937;
     padding: 0 100px;
+
+
 }
 .header {
     display: flex;
-    align-items: center;
-    column-gap: 200px;
-
-
-
+    justify-content: center;
 }
 
 .header-right {
+    display: flex;
     margin-left: auto;
-    gap: 50px 50px;
+    ;
 
 }
 
@@ -28,6 +27,11 @@ body {
 button {
     color: white;
     background-color: #3882f6;
+    border-radius: 20px;
+    padding: 10px;
+    border-color: #F9FAF8;
+    width: 100px;
+
 }
 
 .section1 {
@@ -35,12 +39,14 @@ button {
     height: max-content;
     align-items: center;
     gap: 190px;
-    padding-bottom: 30px;
+    padding-bottom: 90px;
 
 }
 
-img {
-    max-height: 400px;
+.big-pic {
+    height: 240px;
+    width: 600px;
+    border-radius: 0;
 }
 
 .logo {
@@ -62,24 +68,32 @@ a {
     font-size: 18px;
     color: #e5e7eb;}
 
-h2 {
+.info-header {
     font-size: 36px;
-    color: #ea1809;
+    color: #1f2937;
     font-weight: bolder;
+    text-align: center;
 }
 
 
 .second-section {
     display: flex;
-    background-color: red;
+    background-color: white;
     padding: 0 100px;
+    gap: 80px;
     justify-content: center;
+    padding: 0 100px;
 }
 
-.info {
-    display: flex;
-    align-self: center;
-    justify-content: center;
+img {
+    height: 250px;
+    width: 250px;
+    border-radius: 15px;
+}
+
+.pics {
+    max-width: 200px;
+
 }
 
 .third-section {
@@ -90,7 +104,8 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 100px;
+    padding: 0 100px;
+
 
 
 }
@@ -105,4 +120,47 @@ h2 {
 .author {
     margin-left: auto;
     font-weight: bolder;
+}
+
+.fourth-section {
+    background-color: #3882f6;
+    margin: 60px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+    height: 200px;
+    gap: 0;
+    padding: 0 100px;
+    height: 150px;
+    align-items:initial;
+}
+
+
+
+
+
+.button,
+.call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;}
+
+.call {
+    flex-direction: column;
+    flex: 2;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+    gap: 0;
+
+
+}
+
+
+.footer {
+    background-color: #1f2937;
+    text-align: center;
+    padding: 20px;
+    color: white;
 }
